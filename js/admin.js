@@ -1,17 +1,25 @@
+// SOF
 $(function() {
-//Function Start
+// ----- Code starts from here ----- //
 
-	$('#sort').sortable({
-		// connectWith: '.sortable',
-		update: function(event, ui) {
+    //  Makes the sites boxes sortable (drag to re-arrange)
+	$('.sites-icons').sortable({ // Sortable: Start
+        // For connecting with another list
+		connectWith: '.sortable',
+        // Each time a box is dragged, do the hwats inside the function
+		update: function(event, ui) { // Update: Start
+            // Execute the save function to save the position
+            // of the boxes to chrome.storage
+			save();
+		} // Update: Ends
+	}); // Sortable: Ends
 
-			// save();
-		}
-	});
 
+//  Saves the list of websites
+function save() { // Save: Starts
+    // chrome.storage.sync.set( {"lists": mainList} );
+} // Save: Ends
 
-// function save() {
-//     chrome.storage.sync.set( {"lists": mainList} );
-// }
-// on ready function end
+// ----- Code ends right here ----- //
 });
+// EOF

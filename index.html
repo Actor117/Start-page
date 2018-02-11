@@ -10,24 +10,24 @@
         <!-- Fonts links -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Rajdhani:400,700" rel="stylesheet">
-
     </head>
     <body>
-        <div class="container">
+        <div class="container"> <!-- Container: Start -->
                 <div class="row">
                     <div class="col">
                         <h1 class="is-center time">02:15</h1>
                         <h3 class="is-center date">Sunday, 11th of february</h3>
                     </div>
                 </div>
-                <div class="searchbox row">
+                <div class="searchbox row"> <!-- Searchbox: Start -->
                     <div class="col">
                         <form id="search-form" class="" action="https://duckduckgo.com/?" method="get" autofocus>
                             <input type="text" name="q" value="" id="search-box">
                         </form>
                 </div>
-                <div class="sites-icons row">
-                    <div id="sort" class="site-box col-3">
+            </div> <!-- Searchbox: Ends -->
+                <div class="sites-icons row"> <!-- Sites-icons: Start -->
+                    <div class="site-box col-3">
                         <img src="https://icongr.am/simple/github.svg?color=ffffff" class="github"></img>
                     </div>
                     <div class="site-box col-3">
@@ -46,17 +46,20 @@
                         <img src="https://icongr.am/simple/dribbble.svg?color=ffffff" class="dribbble"></img>
                     </div>
                     <div class="site-box col-3">
+                        <!-- For the lack of a better soloution, H1 will be used for now -->
                         <h1 class="irc">#IRC</h1>
                     </div>
                     <div class="site-box col-3">
                         <img src="https://icongr.am/simple/medium.svg?color=ffffff" class="medium"></img>
                     </div>
-                </div>
-    </div>
+                </div> <!-- Sites-icons: End -->
+            </div> <!-- Container: End -->
         <!-- Script tags -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="js/search.js" charset="utf-8"></script>
         <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+        <script src="js/jquery-ui.min.js" charset="utf-8"></script>
+        <script src="js/search.js" charset="utf-8"></script>
+        <!-- re-arranging the sites is disabled until the save function is finished -->
+        <!-- <script src="js/admin.js" charset="utf-8"></script> -->
     </body>
 </html>
