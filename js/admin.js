@@ -1,8 +1,8 @@
 $(function() {
 //Function Start
 
-	$('.sortable').sortable({
-		connectWith: '.sortable',
+	$('#sort').sortable({
+		// connectWith: '.sortable',
 		update: function(event, ui) {
 
 			// save();
