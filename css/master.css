@@ -1,0 +1,79 @@
+body {
+    background-color: #202D32;
+}
+
+.container{
+    width: 499.64px;
+}
+
+/* .searchbox {
+    width: 100%
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.time {
+    font-size: 10rem;
+    margin-bottom: -4rem;
+    color: #1e6f6f;
+    text-shadow: 0px 2px 2px #212121;
+    font-family: "Open Sans Condensed";
+    font-weight: bolder;
+}
+
+.date {
+    font-size: 2.5rem;
+    font-family: "Rajdhani";
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 2px 2px #212121;
+}
+
+input {
+    width: 96% !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.2rem !important;
+    border: 0 !important;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+
+.sites-icons {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.site-box {
+    border-radius: 0.2rem;
+    height: 7rem;
+    width: 1.1rem;
+    border: none !important;
+}
+
+.site-box, input {
+    box-shadow: 0px 2px 2px #212121;
+    background-color: #1e6f6f;
+    color: white;
+}
+
+.site-box img, .irc {
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8rem;
+    display: block;
+}
+
+.irc {
+    color: white;
+    font-size: 33px;
+    font-family: Rajdhani;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 1rem;
+}
