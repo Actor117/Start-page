@@ -10,15 +10,15 @@ $(function() {
 		update: function(event, ui) { // Update: Start
             // Execute the save function to save the position
             // of the boxes to chrome.storage
-			save();
+			// save();
 		} // Update: Ends
 	}); // Sortable: Ends
 
 
 //  Saves the list of websites
-function save() { // Save: Starts
+// function save() { // Save: Starts
     // chrome.storage.sync.set( {"lists": mainList} );
-} // Save: Ends
+// } // Save: Ends
 
 // ----- Code ends right here ----- //
 });
