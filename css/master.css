@@ -30,7 +30,7 @@ body {
 }
 
 input {
-    width: 96% !important;
+    /* width: 96% !important; */
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.2rem !important;
