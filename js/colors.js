@@ -4,19 +4,8 @@ $(function () {
             'blue': ['1e6f6f', '202D32'],
             'green': ['007515', '203222'],
             'brown': ['6b420e', '322d20'],
-            'current': 'blue'
-        
-function (c) {
-
-//     var color = c['current'];
-//     $('.time').css('color', '#'+c[color][0]);
-//     $('input').css('background-color', '#'+c[color][0]);
-//     $('.site-box').css('background-color', '#'+c[color][0]);
-//     $('.white').css('background-color', '#'+c[color][1]);
-//     $('body').css('background-color', '#'+c[color][1]);
-//     $('body').toggle('fade', 400);
-//     $('input').focus();
-
+            'current': 'blue',
+        };
 
         $('.white').on('click', function() {
             $(this).toggle('.hide')
@@ -41,5 +30,4 @@ function (c) {
         recoler('blue');
         recoler('green');
         recoler('brown');
-    }
     });
