@@ -1,3 +1,4 @@
+$(function () {
 // Get the elemets reqired, set to to variables!
 var form = document.getElementById('search-form');
 var searchbox = document.getElementById('search-box');
@@ -28,3 +29,5 @@ function(event){
 		form.submit();
 	}
 }, false); // I'm not sure why there's a 'false' in here, but I plan to find out!
+
+)};
