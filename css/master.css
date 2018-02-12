@@ -5,8 +5,7 @@ body {
 }
 
 .container {
-    /* using pixles for more acuraccy */
-    width: 499.64px;
+    width: 49.964rem;
 }
 
 /* Colors menu section */
