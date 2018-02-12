@@ -6,6 +6,7 @@ Current features
 * Fetching Time/Date.
 * Dragging to re-order the list of websites.
 * Differentiating between a search request and URL request.
+* Color switcher
 
 Working on
 ---
@@ -16,7 +17,7 @@ To-Do
 ---
 * ~~Fetching Time/Date.~~
 * Ability to add/remove sites as well as creating more rows.
-* Color themes
+* ~~Color switcher~~
 * Ability to set a background image
 * Detect background image dominating color and change the interface colors accordingly.
 * Direction aware hover effects.
