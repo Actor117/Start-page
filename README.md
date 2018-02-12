@@ -8,19 +8,16 @@ Current features
 * Differentiating between a search request and URL request.
 * Color switcher
 
-Working on
----
-* Real-time time updates
-* Saving the order of the sites after re-arranging them.
-
 To-Do
 ---
 * ~~Fetching Time/Date.~~
-* Ability to add/remove sites as well as creating more rows.
 * ~~Color switcher~~
-* Direction aware hover effects.
+* Real-time time updates
+* Saving the order of the sites after re-arranging them.
+* Ability to add/remove sites as well as creating more rows.
 
-* Latest/top _unknown-website_ posts at bottom of the page.
+* Direction aware hover effects.
+* Latest/top _unknown-website_ posts at bottom of the page (an idea). 
 
 * Ability to set a background image
 * Detect background image dominating color and change the interface colors accordingly.
