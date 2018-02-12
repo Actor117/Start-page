@@ -5,8 +5,7 @@ $(function () {
             'green': ['007515', '203222'],
             'brown': ['6b420e', '322d20'],
             'current': 'blue'
-        }
-
+        });
 
 function (c) {
 
