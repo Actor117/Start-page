@@ -7,6 +7,8 @@ $(function () {
             'current': 'blue',
         };
 
+        $('body').toggle('fade')
+
         $('.white').on('click', function() {
             $(this).toggle('.hide')
             $('span').toggle('.hide')
