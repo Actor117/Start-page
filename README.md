@@ -1,13 +1,13 @@
 # Clean Blue/White, Darkish Start-Page (chrome extension)
 This is a work in progress project.
 
-What works
+Current features
 ---
 * Fetching Time/Date.
 * Dragging to re-order the list of websites.
 * Differentiating between a search request and URL request.
 
-What doesn't work
+Working on
 ---
 * Real-time time updates
 * Saving the order of the sites after re-arranging them.
@@ -15,6 +15,7 @@ What doesn't work
 To-Do
 ---
 * ~~Fetching Time/Date.~~
+* Ability to add/remove sites as well as creating more rows.
 * Color themes
 * Ability to set a background image
 * Detect background image dominating color and change the interface colors accordingly.
