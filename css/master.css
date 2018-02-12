@@ -8,6 +8,10 @@ body {
     width: 49.964rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Colors menu section */
 
 .colors-menu-button {
@@ -34,7 +38,6 @@ body {
 .colors-menu .white {
     background-color: #202D32;
     width: 2.5rem;
-    border-left: 3px;
 }
 
 .hide {
@@ -43,22 +46,18 @@ body {
 
 .colors-menu .red {
     background-color: #b30000;
-    border-left: 1rem solid #202D32;
 }
 
 .colors-menu .blue {
     background-color: #1e6f6f;
-    border-left: 1rem solid #202D32;
 }
 
 .colors-menu .green {
     background-color: #007515;
-    border-left: 1rem solid #203222;
 }
 
 .colors-menu .brown {
     background-color: #6b420e;
-    border-left: 1rem solid #322d20;
 }
 
 /* Time-Date/Upper section */
@@ -86,6 +85,7 @@ body {
     width: 1.1rem;
     background-color: #1e6f6f;
     color: white;
+    cursor: pointer;
 }
 
 .site-box img, .irc {

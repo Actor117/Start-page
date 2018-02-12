@@ -8,4 +8,10 @@ var date = moment().format('dddd') + ', ' + moment().format("Do") + ' of ' + mom
 
 $(".time").text(time)
 $('.date').text(date)
+
+$('.site-box').on('click', function() {
+    var url = $(this).attr('data-url');
+    window.location.href = url;
+});
+
 });
