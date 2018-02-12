@@ -15,7 +15,7 @@ body {
 .time {
     font-size: 10rem;
     margin-bottom: -4rem;
-    color: #1e586f;
+    color: #1e6f6f;
     font-family: "Open Sans Condensed";
     font-weight: bolder;
 }
@@ -33,7 +33,7 @@ body {
     border-radius: 0.2rem;
     height: 7rem;
     width: 1.1rem;
-    background-color: #1e586f;
+    background-color: #1e6f6f;
     color: white;
 }
 
@@ -68,7 +68,7 @@ body {
 /* Searchbox section */
 
 input {
-    background-color: #1e586f;
+    background-color: #1e6f6f;
     color: white;
 }
 
