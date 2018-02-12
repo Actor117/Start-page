@@ -30,4 +30,4 @@ function(event){
 	}
 }, false); // I'm not sure why there's a 'false' in here, but I plan to find out!
 
-)};
+});

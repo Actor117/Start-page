@@ -1,13 +1,73 @@
-
 /* Overall */
 
 body {
     background-color: #202D32;
 }
 
-.container{
+.container {
     /* using pixles for more acuraccy */
     width: 499.64px;
+}
+
+/* Colors menu section */
+
+.colors-menu-button {
+    /* margin-top:1rem; */
+    padding: 0.2rem;
+    /* background-color: #1e6f6f; */
+    box-shadow: 0 0.2rem 0.2rem    border-radius: 5px 3px 5px
+ rgba(0, 0, 0, 0.2);
+}
+
+.colors-menu {
+    /* display: none; */
+    margin-top: 1rem;
+    margin-left: 1.1rem;
+    height: auto;
+    width: auto;
+    /* background-color: #1e6f6f; */
+    /* border-left: 0.2rem white solid; */
+    /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.6); */
+}
+
+.colors-menu div {
+    width: 3rem;
+    height: 2rem;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    border: 0.1rem solid #fff;
+}
+
+.colors-menu .white {
+    background-color: #202D32;
+    /* border-left: 1rem solid #202D32; */
+    width: 2.5rem;
+    /* opacity: 0.5; */
+    border-left: 3px;
+}
+
+.hide {
+    display: none;
+}
+
+.colors-menu .red {
+    background-color: #b30000;
+    border-left: 1rem solid #202D32;
+}
+
+.colors-menu .blue {
+    background-color: #1e6f6f;
+    border-left: 1rem solid #202D32;
+}
+
+.colors-menu .green {
+    background-color: #007515;
+    border-left: 1rem solid #203222;
+}
+
+.colors-menu .brown {
+    background-color: #6b420e;
+    border-left: 1rem solid #322d20;
 }
 
 /* Time-Date/Upper section */
@@ -57,13 +117,12 @@ body {
 }
 
 .box-shadow, .site-box, input {
-    box-shadow: 0  0.2rem 0.2rem #212121;
+    box-shadow: 0 0.2rem 0.2rem #212121;
 }
 
 .text-shadow, .date, .time {
-    text-shadow: 0  0.2rem 0.2rem #212121;
+    text-shadow: 0 0.2rem 0.2rem #212121;
 }
-
 
 /* Searchbox section */
 
