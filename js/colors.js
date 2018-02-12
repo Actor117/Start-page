@@ -1,13 +1,12 @@
 $(function () {
-    chrome.storage.sync.get(
-        {
+    var c = {
             'red': ['b30000', '202D32'],
             'blue': ['1e6f6f', '202D32'],
             'green': ['007515', '203222'],
             'brown': ['6b420e', '322d20'],
             'current': 'blue'
-        }, colorCallBack)
-    });
+        }
+
 
 var colorCallBack = function (c) {
 
@@ -45,3 +44,4 @@ var colorCallBack = function (c) {
         recoler('green');
         recoler('brown');
     }
+    });
