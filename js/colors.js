@@ -8,16 +8,16 @@ $(function () {
         }
 
 
-var colorCallBack = function (c) {
+function (c) {
 
-    var color = c['current'];
-    $('.time').css('color', '#'+c[color][0]);
-    $('input').css('background-color', '#'+c[color][0]);
-    $('.site-box').css('background-color', '#'+c[color][0]);
-    $('.white').css('background-color', '#'+c[color][1]);
-    $('body').css('background-color', '#'+c[color][1]);
-    $('body').toggle('fade', 400);
-    $('input').focus();
+//     var color = c['current'];
+//     $('.time').css('color', '#'+c[color][0]);
+//     $('input').css('background-color', '#'+c[color][0]);
+//     $('.site-box').css('background-color', '#'+c[color][0]);
+//     $('.white').css('background-color', '#'+c[color][1]);
+//     $('body').css('background-color', '#'+c[color][1]);
+//     $('body').toggle('fade', 400);
+//     $('input').focus();
 
 
         $('.white').on('click', function() {
