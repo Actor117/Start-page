@@ -34,8 +34,8 @@ function (c) {
                 $('.white').animate({'background-color': '#'+c[name][1]},200);
                 $('.white').toggle('.hide')
                 $('span').toggle('.hide')
-                chrome.storage.sync.set({'current': name})
-                console.log(c['current']);
+//                 chrome.storage.sync.set({'current': name})
+//                 console.log(c['current']);
             });
         }
 
