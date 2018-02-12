@@ -18,9 +18,11 @@ To-Do
 * ~~Fetching Time/Date.~~
 * Ability to add/remove sites as well as creating more rows.
 * ~~Color switcher~~
+* Direction aware hover effects.
+
+* Latest/top _unknown-website_ posts at bottom of the page.
+
 * Ability to set a background image
 * Detect background image dominating color and change the interface colors accordingly.
-* Direction aware hover effects.
-* Latest/top _unknown-website_ posts at bottom of the page.
 * An option to auto-fetch a background image using unsplash-api every _x_ minutes/hours.
 * Allowing the user to specify a custom tag for the images ^
