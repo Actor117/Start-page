@@ -26,6 +26,8 @@ var colorCallBack = function (c) {
                 $('.time').animate({'color': '#'+c[name][0]},200);
                 $('input').animate({'background-color': '#'+c[name][0]},200);
                 $('.site-box').animate({'background-color': '#'+c[name][0]},200);
+                $('body').animate({'background-color': '#'+c[name][1]},200);
+                $('.white').animate({'background-color': '#'+c[name][1]},200);
                 $('.white').toggle('.hide')
                 $('span').toggle('.hide')
                 console.log(c[name]);
