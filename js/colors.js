@@ -14,7 +14,6 @@ var c = {
         $('.white').on('click', function() {
             $(this).toggle('.hide')
             $('span').toggle('.hide')
-            console.log('clicked');
         });
 
         function recoler(name) {
@@ -26,8 +25,6 @@ var c = {
                 $('.white').animate({'background-color': '#'+c[name][1]},200);
                 $('.white').toggle('.hide')
                 $('span').toggle('.hide')
-                console.log(c[name]);
-                console.log(c['red'][0]);
             });
         }
 
