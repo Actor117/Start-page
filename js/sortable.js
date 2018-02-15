@@ -5,7 +5,7 @@ $(function() {
     //  Makes the sites boxes sortable (drag to re-arrange)
 	$('.sites-icons').sortable({ // Sortable: Start
         // For connecting with another list
-		connectWith: '.sortable',
+	//	connectWith: '.sortable',
         // Each time a box is dragged, do the hwats inside the function
 		update: function(event, ui) { // Update: Start
             // Execute the save function to save the position
