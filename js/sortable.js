@@ -21,5 +21,5 @@ $(function() {
 // } // Save: Ends
 
 // ----- Code ends right here ----- //
-});
+}
 // EOF
